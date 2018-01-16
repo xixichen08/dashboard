@@ -99,7 +99,6 @@ export class AuthService {
           // disabled.
           (this.isAuthenticated(loginStatus) || !this.isAuthenticationEnabled(loginStatus))) {
         // Todo change to overview state
-        console.log('go to about')
         return state.target(aboutState);
       }
 
